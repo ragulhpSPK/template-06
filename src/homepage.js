@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <div className="pr-1 xsm:float-left  lg:pt-28 xl:pt-14">
         <img
-          src="https://o.remove.bg/downloads/ca8eb865-0fe8-4167-bcf5-a569a3dffe53/2e7837af158921366421cc4ff8c8bd32-removebg-preview.png"
+          src="../assets/home.png"
           alt="Not found"
           height="100px"
           className="mt-2 m-auto xl:mt-7"
