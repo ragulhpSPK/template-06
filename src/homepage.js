@@ -2,19 +2,24 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="text-white  bg-[#000000ea] w-[100vw] xsm:h-auto lg:h-[100vh] flex flex-col lg:flex lg:flex-row justify-between z-0">
-      <div className="max-w-[800px] mt-[-100px] md:mt-[100px] p-5 w-full h-auto pt-40 mx-auto lg:text-justify lg:m-20 md:p-10 lg:pl-10 xl:text-center flex flex-col justify-center">
+    <div className="text-white  bg-[#000000ea]  xsm:h-auto w-full lg:h-fit xl:h-[100vh] xsl:overflow-hidden flex flex-col xl:flex xl:flex-row justify-between z-0">
+      <div className="max-w-[800px] mt-[-100px] md:mt-[100px] p-5 w-full h-auto pt-40 mx-auto lg:text-justify lg:m-1 md:p-10 lg:pl-10 xl:text-center flex flex-col justify-center">
         <p className="text-[#00df9a] font-bold text-3xl ">
           Education is a Global community
         </p>
-        <h1 className="xl:text-7xl sm:text-5xl lg:tracking-tight  text-3xl font-bold ">
+        <h1 className="lg:xl  xl:text-7xl sm:text-5xl   text-3xl font-bold ">
           Take Your time to Decide your life
         </h1>
-        <div className="flex justify-center items-center">
-          <p className="md:text-4xl  sm:text-3xl text-base font-bold py-4">
-            we don't just teach
-            <span className=" md:text-4xl sm:text-3xl text-[#00df9a] text-base">
-              &nbsp;we inspire more
+        <div className="xsm:flex xsm:flex-col md:flex justify-center items-center">
+          <p className="md:text-4xl xsm:text-8xl lg:xl sm:text-3xl text-base font-bold py-4">
+            we don't just teach &nbsp;
+            <span className="writer">
+              <span
+                className="xsm font-bold md:text-4xl sm:text-3xl text-[#00df9a] text-base"
+                id="writer_text"
+              >
+                we inspire more
+              </span>
             </span>
           </p>
         </div>
@@ -26,7 +31,7 @@ const Home = () => {
           Get Started
         </button>
       </div>
-      <div className="pr-1 xsm:float-left  lg:pt-28 xl:pt-14">
+      <div className="pr-1 xsm:float-left lg:pt-[-8vh] xl:pt-14">
         <img
           src="../assets/home.png"
           alt="Not found"

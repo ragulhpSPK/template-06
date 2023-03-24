@@ -11,14 +11,22 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-20 max-w-[screen] mx-auto px-4 bg-black text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">E educate</h1>
-      <ul className="hidden md:flex space-x-10 lg:pr-40">
-        <li className="p-2 m-4 hover:bg-[#00df9a] hover:rounded-xl hover:scale-110 duration-1000 hover:px-6 ">
+      <ul className="hidden md:flex space-x-16 lg:pr-40">
+        <li className="p-2 m-4 hover:bg-[#00df9a] hover:rounded-xl hover:scale-110 duration-1000 hover:px-3 ">
           Home
         </li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-2 m-4 hover:bg-[#00df9a] hover:rounded-xl hover:scale-110 duration-1000 hover:px-3 ">
+          Company
+        </li>
+        <li className="p-2 m-4 hover:bg-[#00df9a] hover:rounded-xl hover:scale-110 duration-1000 hover:px-3 ">
+          Resources
+        </li>
+        <li className="p-2 m-4 hover:bg-[#00df9a] hover:rounded-xl hover:scale-110 duration-1000 hover:px-3 ">
+          About
+        </li>
+        <li className="p-2 m-4 hover:bg-[#00df9a] hover:rounded-xl hover:scale-110 duration-1000 hover:px-3 ">
+          Contact
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
